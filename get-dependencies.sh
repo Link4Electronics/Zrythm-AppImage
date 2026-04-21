@@ -8,7 +8,8 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     pipewire-audio \
-    pipewire-jack
+    pipewire-jack  \
+    qt6-base
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
