@@ -12,8 +12,8 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/org.zrythm.Zrythm.svg
 export DESKTOP=/usr/share/applications/org.zrythm.Zrythm.desktop
 export DEPLOY_QT=1
 
-# Deploy dependencies
-quick-sharun /usr/bin/zrythm_launch /usr/bin/zrythm
+# Deploy dependencies /usr/bin/zrythm_launch
+quick-sharun /usr/bin/zrythm /usr/lib/zrythm
 
 # Additional changes can be done in between here
 
