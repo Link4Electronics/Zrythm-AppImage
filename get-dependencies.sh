@@ -14,7 +14,6 @@ pacman -Syu --noconfirm \
     libcyaml        \
     liblo           \
     libpanel        \
-    lsp-dsp-lib     \
     ninja           \
     pipewire-audio  \
     pipewire-jack   \
