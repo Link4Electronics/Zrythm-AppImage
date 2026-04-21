@@ -32,6 +32,7 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
+make-aur-package lsp-dsp-lib
 make-aur-package carla-git
 make-aur-package zrythm
 
