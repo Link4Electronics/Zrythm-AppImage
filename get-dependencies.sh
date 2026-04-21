@@ -15,6 +15,7 @@ pacman -Syu --noconfirm \
     liblo           \
     libpanel        \
     lsp-dsp-lib     \
+    ninja           \
     pipewire-audio  \
     pipewire-jack   \
     qt5-base        \
