@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.zrythm.Zrythm.svg
 #export DESKTOP=/usr/share/applications/org.zrythm.Zrythm.desktop
 export DEPLOY_QT=1
+export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies /usr/bin/zrythm_launch
 quick-sharun /usr/bin/zrythm /usr/lib/zrythm
