@@ -13,7 +13,7 @@ export DESKTOP=/usr/share/applications/org.zrythm.Zrythm.desktop
 export DEPLOY_QT=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/zrythm
+quick-sharun /usr/bin/zrythm_launch
 
 # Additional changes can be done in between here
 
