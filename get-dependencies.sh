@@ -11,16 +11,19 @@ pacman -Syu --noconfirm \
     boost-libs      \
     fluidsynth      \
     gtksourceview5  \
+    kvantum         \
     libadwaita      \
     libbacktrace    \
     libcyaml        \
     liblo           \
     libpanel        \
+    lxqt-qtplugin   \
     ninja           \
     pipewire-audio  \
     pipewire-jack   \
     qt5-base        \
     qt6-base        \
+    qt6ct           \
     rtaudio         \
     rtmidi          \
     rubberband      \
