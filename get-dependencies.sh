@@ -8,6 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     boost           \
+    boost-libs      \
     fluidsynth      \
     gtksourceview5  \
     libadwaita      \
