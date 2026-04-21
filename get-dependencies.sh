@@ -7,15 +7,31 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    pipewire-audio \
-    pipewire-jack  \
-    qt6-base
+    fluidsynth      \
+    gtksourceview5  \
+    libadwaita      \
+    libbacktrace    \
+    libcyaml        \
+    liblo           \
+    libpanel        \
+    lsp-dsp-lib     \
+    pipewire-audio  \
+    pipewire-jack   \
+    qt5-base        \
+    qt6-base        \
+    rtaudio         \
+    rtmidi          \
+    rubberband      \
+    sdl2            \
+    vamp-plugin-sdk \
+    yyjson
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
+make-aur-package carla-git
 make-aur-package zrythm
 
 # If the application needs to be manually built that has to be done down here
