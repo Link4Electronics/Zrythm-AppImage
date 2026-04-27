@@ -14,7 +14,7 @@ export DEPLOY_QT=1
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies /usr/bin/zrythm_launch
-quick-sharun /usr/bin/zrythm /usr/lib/zrythm
+quick-sharun /usr/bin/zrythm /usr/lib/zrythm /usr/share/zrythm
 
 # Additional changes can be done in between here
 
