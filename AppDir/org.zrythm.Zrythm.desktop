@@ -57,7 +57,3 @@ StartupNotify=true
 Categories=AudioVideoEditing;Recorder;Music;AudioVideo;Audio;Sequencer;X-Sound;Midi;X-Jack;
 MimeType=application/x-zrythm-project;
 StartupWMClass=zrythm
-
-X-AppImage-Name=Zrythm
-X-AppImage-Version=1.0.0-5
-X-AppImage-Arch=x86_64
