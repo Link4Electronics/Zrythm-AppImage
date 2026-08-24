@@ -12,6 +12,10 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/org.zrythm.Zrythm.svg
 #export DESKTOP=/usr/share/applications/org.zrythm.Zrythm.desktop
 export DEPLOY_QT=1
 export DEPLOY_PIPEWIRE=1
+export PATH_MAPPING='
+/usr/lib/zrythm:${SHARUN_DIR}/lib/zrythm
+/usr/share/zrythm:${SHARUN_DIR}/share/zrythm
+'
 
 # Deploy dependencies /usr/bin/zrythm_launch
 quick-sharun /usr/bin/zrythm /usr/lib/zrythm /usr/share/zrythm
