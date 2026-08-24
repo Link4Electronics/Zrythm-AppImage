@@ -17,10 +17,8 @@ export PATH_MAPPING='
 /usr/share/zrythm:${SHARUN_DIR}/share/zrythm
 '
 
-# Deploy dependencies /usr/bin/zrythm_launch
+# Deploy dependencies
 quick-sharun /usr/bin/zrythm /usr/lib/zrythm /usr/share/zrythm
-
-# Additional changes can be done in between here
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
